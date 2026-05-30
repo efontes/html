@@ -1,0 +1,77 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+} 
+p :hover {
+    color: #1a5a9c;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+h1 {
+    color: #2d7bce;
+    text-align: center;
+    margin-bottom: 20px;
+}
+img {
+    display: block;
+    margin: 0 auto 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+img:hover {
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.44);
+    filter: none;
+}
+
+h2 {
+    color: #2d7bce;
+    margin-top: 30px;
+}
+
+h2:hover {
+    color: #1a5a9c;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+    color: #333;
+}
+a {
+    text-decoration: none;
+    color: #2d7bce;
+    padding: 3px 5px;
+}
+a:hover {
+    text-decoration: underline;
+    padding: 3px 5px;
+    background-color: #d0d0d0;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+}
+p {
+    color: #555;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    letter-shadow: 9px 6px 5px rgba(0, 0, 0, 0.4);
+}
+footer :hover p {
+    display: block;
+}
+footer p {
+    display: none;
+    text-align: center;
+    color: #777;
+    font-size: 12px;
+    margin-top: 20px;
+}
+p :hover {
+    color: #1a5a9c;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
