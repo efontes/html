@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.tarefa1 {
+    color: green;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: justify;
+    line-height: 1.2;
+}
+
+.tarefa1 span {
+    font-weight: bold;
+    background-color: lightblue;
+    padding: 4px 4px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    padding: 3px 5px;
+    background-color: transparent;
+    transition: all linear .2s;
+    border-radius: 3px;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: lightgray;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 4px;
+}
+
+ th {
+        background-color: gray;
+        color: white;
+    }
+
+tr td {
+    background-color: white;
+    transition: all linear .2s;
+}
+ 
+
+table tbody tr:nth-child(even) td {
+    background-color: rgb(240, 240, 240);
+}
+
+table tbody tr:hover td {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+
+
+img {
+    border-radius: 25px;
+    box-shadow: 3px 3px 10px transparent;
+    transition: all linear .2s;
+    filter: grayscale(1)
+}
+
+img:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(0,0,0,.3);
+    filter: none; 
+}
+
+footer p {
+    display: none;
+}
+
+footer:hover p {
+    display: block;
+}
+
+label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+input, textarea {
+    padding: 7px 10px;
+    background-color: rgb(236, 236, 236);
+    border: 0;
+    border-radius: 5px;
+    color: red;
+}
+
+input:focus, textarea:focus {
+    background-color: rgb(240, 255, 221);
+    border: 0;
+    outline: none; /* Retira a borda externa */
+    color: green;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    padding: 4px 10px;
+}
+
+.saibamais {
+    background-color: green;
+}
+
+#saibamais {
+    background: red;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li::before {
+  content: "✓";
+  color: green;
+  font-weight: bold;
+  margin-right: 8px;
+}
